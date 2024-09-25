@@ -15,7 +15,7 @@ class _CalculatorViewState extends State<CalculatorView> {
   final displayOneController = TextEditingController();
   final displayTwoController = TextEditingController();
 
-  late final AppLifecycleListener _listener ;
+  late final AppLifecycleListener _listener;
 
   @override
   void initState() {
@@ -32,7 +32,7 @@ class _CalculatorViewState extends State<CalculatorView> {
       onRestart: _onRestart,
       onInactive: _onInactive,
       onStateChange: _onStateChange,
-    // onExitRequested: _onExitRequested
+      // onExitRequested: _onExitRequested
     );
   }
 
@@ -51,6 +51,9 @@ class _CalculatorViewState extends State<CalculatorView> {
   void _onResume() => print("OnResume called");
   void _onRestart() => print("OnRestart called");
   void _onDetach() => print("OnDetach called");
+  void _onInactive() => print("onInactive called");
+  void _onStateChange(AppLifecycleState state) =>
+      print("AppLifecycle State : $state");
 
   @override
   Widget build(BuildContext context) {
