@@ -8,6 +8,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(title: "Flutter Instance", home: HomeView());
+    return MaterialApp(
+        title: "Flutter Learn",
+        theme: ThemeData(primarySwatch:  Colors.orange),
+        home: const HomeView());
   }
 }
