@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/views/calculatorView/calculator_view.dart';
+import 'package:flutter_learn/views/calculatorView/calculator_view.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});

@@ -1,0 +1,65 @@
+{
+  "icecreams": [
+    {
+      "flavour": "Vanilla",
+      "description": "Classic vanilla ice cream made with real vanilla beans.",
+      "toppings": ["Chocolate Syrup", "Chopped Nuts"],
+      "price": 4.99,
+      "image": "https://plus.unsplash.com/premium_photo-1664298709645-8caab450cc5b?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        { "name": "Milk", "quantity": "500ml" },
+        { "name": "Sugar", "quantity": "100g" },
+        { "name": "Vanilla Extract", "quantity": "1tsp" }
+      ]
+    },
+    {
+      "flavour": "Chocolate",
+      "description": "Rich and creamy chocolate ice cream for all chocolate lovers.",
+      "toppings": ["Whipped Cream", "Chocolate Chips"],
+      "price": 5.99,
+      "image": "https://images.unsplash.com/photo-1673551494246-0ea345ddbf86?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        { "name": "Milk", "quantity": "500ml" },
+        { "name": "Sugar", "quantity": "100g" },
+        { "name": "Cocoa Powder", "quantity": "50g" }
+      ]
+    },
+    {
+      "flavour": "Strawberry",
+      "description": "Fresh strawberry ice cream with chunks of real strawberries.",
+      "toppings": ["Fresh Strawberries", "White Chocolate Syrup"],
+      "price": 5.49,
+      "image": "https://images.unsplash.com/photo-1516559828984-fb3b99548b21?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "ingredients": [
+        { "name": "Milk", "quantity": "500ml" },
+        { "name": "Sugar", "quantity": "100g" },
+        { "name": "Strawberries", "quantity": "150g" }
+      ]
+    },
+    {
+      "flavour": "Mint Chocolate Chip",
+      "description": "Refreshing mint ice cream with crunchy chocolate chips.",
+      "toppings": ["Mint Leaves", "Chocolate Shavings"],
+      "price": 6.49,
+      "image": "https://media.istockphoto.com/id/1279996775/photo/extreme-close-up-of-green-ice-cream-being-scooped-up.jpg?s=1024x1024&w=is&k=20&c=zTqhWUvoKXIjHWgU3pdOCEqF4180qhCQg46IYtDXgWU=",
+      "ingredients": [
+        { "name": "Milk", "quantity": "500ml" },
+        { "name": "Sugar", "quantity": "100g" },
+        { "name": "Mint Extract", "quantity": "1tsp" },
+        { "name": "Chocolate Chips", "quantity": "50g" }
+      ]
+    },
+    {
+      "flavour": "Cookies and Cream",
+      "description": "Creamy vanilla ice cream mixed with chunks of chocolate cookies.",
+      "toppings": ["Crushed Cookies", "Chocolate Syrup"],
+      "price": 6.99,
+      "image": "https://media.istockphoto.com/id/688427626/photo/cookies-and-cream-ice-cream.jpg?s=1024x1024&w=is&k=20&c=0wBkJ8kkXYVuFwEZu-6q-h0yBWD-PFnlH3-WkCPReBs=",
+      "ingredients": [
+        { "name": "Milk", "quantity": "500ml" },
+        { "name": "Sugar", "quantity": "100g" },
+        { "name": "Crushed Cookies", "quantity": "100g" }
+      ]
+    }
+  ]
+}
